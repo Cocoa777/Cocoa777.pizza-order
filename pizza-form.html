@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza shop</title>
+    <style>
+         body{
+            background: url('fire.jpg');
+           background-size: cover;
+           background-repeat: no-repeat;
+        }
+        .box {
+            background-color: lightgray;
+            border: solid 1px white;
+            width: min-content;
+            padding: 2rem;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            
+        }
+        .input-text{
+            height: 45px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form>
+            <h2 style="color: red;">Welcome to the online pizza shop!🍕</h2>
+            <p>Type your name here:</p>
+                <input type="text" name="your_name">
+            <p>
+                <label for="email">your email📨 or phone number📞:</label>
+                <br>
+                <input class="input-text" type="text" name="email" id="email">
+            </p>
+            <p>
+                <label for="your home">Your home🏠:</label>
+                <br>
+                <input  class="input-text" type="text" name="your home" id="your home">
+            </p>
+            <h3>choose your size, and how many you want.</h3>
+            <input type="checkbox" name="size" value="s-size">S-size
+            <select name="number">
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="4">4</option>
+            </select>
+                <br>
+                <input type="checkbox" name="size" value="m-size">M-size
+                <select name="number">
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="4">4</option>
+                </select>
+                <br>
+                <input type="checkbox" name="size" value="l-size">L-size
+                <select name="number">
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="4">4</option>
+                </select>
+                <br>
+
+                <select name="number">
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="4">4</option>
+                    <option value="five">5</option>
+                    <option value="six">6</option>
+                    <option value="seven">7</option>
+                    <option value="eight">8</option>
+                   
+                </select>
+                <br>
+                <p>Any comments for us.</p>
+                <textarea name="comment" rows="5" cols="25" placeholder="Write down your comments"></textarea>
+                <br>
+                <p>coupon↓</p>
+                <input type="button" onclick="alert ('Copy this URL to the comments: coupon.https.ww/lol')"
+                value="Click to get a coupon!">
+                <br>
+                <input type="submit" value="SEND" style="font-size: larger;color: orangered;">
+        </form>
+    </div>
+    
+</body>
+</html>
